@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Auditory naming",
+  "description": "This dataset comprises intracranial EEG recordings from 106 patients performing an auditory naming task. The recordings include event markers for stimulus onset/offset and response onset, with electrode coordinates provided in MNI-305 space. The dataset supports investigation of neural mechanisms underlying auditory language processing and naming through direct brain recordings.",
+  "methods_description": "Intracranial EEG recordings were acquired during an auditory naming task. Event codes mark stimulus onset (401), stimulus offset (402), and response onset (501). Electrode coordinates are provided in MNI-305 stereotactic space.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,12 +21,39 @@
       "orcid": "0000-0001-8391-4067"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005545.v1.0.3",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "intracranial EEG"
     },
+    {
+      "term": "auditory naming"
+    },
+    {
+      "term": "Natural Language Processing",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "https://id.nlm.nih.gov/mesh/D009323"
+    },
+    {
+      "term": "electrocorticography"
+    },
+    {
+      "term": "neural recording"
+    },
+    {
+      "term": "Speech Production Measurement",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "https://id.nlm.nih.gov/mesh/D013068"
+    },
+    {
+      "term": "language processing"
+    },
+    {
+      "term": "electrode localization"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005545",
       "identifier_type": "URL",
@@ -39,51 +68,32 @@
       "identifier": "10.1101/2025.03.07.641428",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005545.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
     {
       "funder_name": "N/A"
-    },
-    {
-      "funder_name": "Wayne State University"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "42.9 GB (337 files)"
   ],
   "formats": [
     ".edf",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises intracranial EEG recordings from 106 patients performing an auditory naming task. The recordings include event markers for stimulus onset, stimulus offset, and response onset, with electrode coordinates provided in MNI-305 space. The dataset supports investigation of neural dynamics underlying auditory language processing and naming through direct brain recordings.",
-  "methods_description": "Intracranial EEG recordings were acquired during an auditory naming task. Event codes mark stimulus onset (401), stimulus offset (402), and response onset (501). Electrode coordinates are provided in MNI-305 stereotactic space.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "auditory naming"
-    },
-    {
-      "term": "Language",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D007806"
-    },
-    {
-      "term": "electrocorticography"
-    },
-    {
-      "term": "neural dynamics"
-    }
-  ],
-  "source_hash": "7c467f14056f93f3e49abe592bb434ff5f574ffa2cc11cbb8c5d8072f0e85adc"
+  "source_hash": "4ee7f549a64403aa7e23fd30b6c65adeda03f3206a02339cd3a6762e898b2fc2"
 }
