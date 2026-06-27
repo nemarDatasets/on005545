@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005545-blue)](https://doi.org/10.82901/nemar.on005545)
+
 This dataset, used in the analysis reported by Kanno et al., (2025), contains intracranial EEG recordings from 106 individuals who performed an auditory‑naming task. The corresponding MATLAB analysis code is available at https://github.com/a8k8nn0/TractographyAtlas, and electrode coordinates are provided in MNI‑305 space.
 
 Each EDF file is tagged for the auditory naming task with the following event codes:  
