@@ -1,0 +1,42 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005545",
+  "source": "openneuro",
+  "source_id": "ds005545",
+  "title": "Auditory naming",
+  "authors": {
+    "Aya Kanno": {},
+    "Ryuzaburo Kochi": {},
+    "Kazuki Sakakura": {},
+    "Yu Kitazawa": {},
+    "Hiroshi Uda": {},
+    "Riyo Ueda": {},
+    "Masaki Sonoda": {},
+    "Min-Hee Lee": {},
+    "Jeong-Won Jeong": {},
+    "Aimee F. Luat": {},
+    "Eishi Asano": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005545.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "N/A"
+    }
+  ]
+}
