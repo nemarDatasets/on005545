@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Auditory naming",
-  "description": "This dataset comprises intracranial EEG recordings from 106 patients performing an auditory naming task. The recordings include event markers for stimulus onset/offset and response onset, with electrode coordinates provided in MNI-305 space. The dataset supports investigation of neural mechanisms underlying auditory language processing and naming through direct brain recordings.",
-  "methods_description": "Intracranial EEG recordings were acquired during an auditory naming task. Event codes mark stimulus onset (401), stimulus offset (402), and response onset (501). Electrode coordinates are provided in MNI-305 stereotactic space.",
+  "description": "This dataset comprises intracranial EEG recordings from 106 individuals performing an auditory-naming task, with electrode coordinates provided in MNI-305 space. It supports investigation of the dynamic causal network underlying auditory descriptive naming, as reported by Kanno et al. (2025). The dataset accompanies analysis code for tractography-based network analysis.",
+  "methods_description": "Intracranial EEG data were recorded during an auditory-naming task, with EDF files annotated using event codes for stimulus onset (401), stimulus offset (402), and response onset (501). Electrode coordinates were localized in MNI-305 space.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -29,28 +29,18 @@
       "term": "auditory naming"
     },
     {
-      "term": "Natural Language Processing",
+      "term": "epilepsy"
+    },
+    {
+      "term": "Electrocorticography",
       "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "https://id.nlm.nih.gov/mesh/D009323"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     },
     {
-      "term": "electrocorticography"
+      "term": "tractography"
     },
     {
-      "term": "neural recording"
-    },
-    {
-      "term": "Speech Production Measurement",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "https://id.nlm.nih.gov/mesh/D013068"
-    },
-    {
-      "term": "language processing"
-    },
-    {
-      "term": "electrode localization"
+      "term": "language mapping"
     }
   ],
   "related_identifiers": [
