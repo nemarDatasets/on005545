@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Auditory naming",
-  "description": "This dataset comprises intracranial EEG recordings from 106 individuals performing an auditory-naming task, with electrode coordinates provided in MNI-305 space. It supports investigation of the dynamic causal network underlying auditory descriptive naming, as reported by Kanno et al. (2025). The dataset accompanies analysis code for tractography-based network analysis.",
-  "methods_description": "Intracranial EEG data were recorded during an auditory-naming task, with EDF files annotated using event codes for stimulus onset (401), stimulus offset (402), and response onset (501). Electrode coordinates were localized in MNI-305 space.",
+  "description": "Intracranial EEG recordings from 106 patients performing an auditory descriptive naming task. Electrode coordinates are provided in MNI-305 space. The data support a dynamic causal tractography analysis of the networks underlying auditory naming.",
+  "methods_description": "Intracranial EEG was recorded during an auditory naming task and stored as EDF files. Events are coded as stimulus onset (401), stimulus offset (402), and response onset (501). Electrode coordinates are in MNI-305 space.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -29,18 +29,18 @@
       "term": "auditory naming"
     },
     {
+      "term": "language"
+    },
+    {
+      "term": "tractography"
+    },
+    {
       "term": "epilepsy"
     },
     {
       "term": "Electrocorticography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
-    },
-    {
-      "term": "tractography"
-    },
-    {
-      "term": "language mapping"
     }
   ],
   "related_identifiers": [
@@ -76,7 +76,7 @@
     "ieeg"
   ],
   "sizes": [
-    "42.9 GB (337 files)"
+    "39.95 GB (337 files)"
   ],
   "formats": [
     ".edf",
